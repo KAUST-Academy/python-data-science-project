@@ -19,5 +19,6 @@ dependencies:
   - pip:
     - -r requirements.txt
   - python
+  - python-language-server
   - pyviz_comms
   - xeus-python
