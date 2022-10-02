@@ -1,7 +1,6 @@
 name: null
 
 channels:
-  - intel
   - conda-forge
   - defaults
 
@@ -10,7 +9,7 @@ dependencies:
   - gh
   - git
   - holoviews
-  - jupyterlab>=3.0
+  - jupyterlab
   - jupyterlab-git
   - jupyterlab-lsp
   - matplotlib
@@ -18,7 +17,7 @@ dependencies:
   - panel
   - pip
   - pip:
-    - -r file:requirements.txt
+    - -r requirements.txt
   - python
   - pyviz_comms
   - xeus-python
