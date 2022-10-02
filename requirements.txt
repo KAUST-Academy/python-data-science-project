@@ -1,1 +1,1 @@
-python-language-server[all]
+
